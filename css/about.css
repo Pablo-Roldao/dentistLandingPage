@@ -1,0 +1,14 @@
+.about {
+    padding: 5%;
+    color: #4096c6;
+}
+
+.about__title {
+    font-weight: 800;
+    margin: 0;
+}
+
+.about__text {
+    font-weight: 600;
+    margin: 0;
+}

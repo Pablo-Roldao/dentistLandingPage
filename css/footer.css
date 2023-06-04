@@ -1,0 +1,57 @@
+.horizontal-row {
+    background-color: #5cc6d0;
+    height: 2px;
+    width: 100%;
+}
+
+.footer {
+    padding: 5%;
+    color: #4096c6;
+}
+
+.footer__img {
+    width: 100%;
+}
+
+.footer__contact__title {
+    margin: 0;
+}
+
+.footer__contact a {
+    display: block;
+    color: #4096c6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer__reach-us__title {
+    margin: 0;
+}
+
+.footer__reach-us__content {
+    font-weight: 600;
+}
+
+.footer__open-hours__title {
+    margin: 0;
+}
+
+.footer__open-hours__content {
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.footer__social-medias__area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social-medias__icon {
+    width: 40%;
+    color: #5cc6d0;
+}
+
+.footer__copyright {
+    margin-top: 5%;
+    display: flex;
+}

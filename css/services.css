@@ -1,0 +1,25 @@
+.services {
+    padding: 5%;
+    background-color: #4096C6;
+    color: #FFF;
+}
+
+.services__title {
+    font-weight: 800;
+}
+
+.service {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 5% 0;
+}
+
+.service__img {
+    width: 100%;
+}
+
+.service__title {
+    color: #4096c6;
+    text-align: center;
+}

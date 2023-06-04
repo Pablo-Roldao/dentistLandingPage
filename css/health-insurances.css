@@ -1,0 +1,27 @@
+.health-insurances {
+    padding: 5%;
+    background-color: #4096c6;
+    color: #FFF;
+}
+
+.health-insurances__title {
+    font-weight: 800;
+}
+
+.health-insurance {
+    background-color: #FFF;
+    color: #4096c6;
+    border-radius: 10px;
+    margin: 5% 0;
+    padding: 5%;
+}
+
+.health-insurance__img {
+    width: 100%;
+}
+
+.health-insurance__title {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 5%;
+}

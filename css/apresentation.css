@@ -1,0 +1,15 @@
+.apresentation {
+    padding: 5%;
+    background-color: #5CC6D0;
+    color: #FFF;
+}
+
+.apresentation__title {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 800;
+}
+
+.apresentation__text {
+    font-weight: 600;
+}

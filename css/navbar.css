@@ -1,0 +1,21 @@
+.navbar * {
+    font-weight: 700;
+    color: #4096C6;
+}
+
+.navbar-brand img {
+    width: 20vw;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    border: none;
+    box-shadow: none;
+}
+
+.collapse-area {
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+}

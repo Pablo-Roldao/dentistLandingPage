@@ -1,0 +1,37 @@
+.contact {
+    padding: 5%;
+    color: #5cc6d0;
+}
+
+.contact__title {
+    font-weight: 800;
+}
+
+.contact__form {
+    background-color: #5cc6d0;
+    padding: 5%;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.contact__form__label {
+    font-weight: 600;
+}
+
+.contact__form__input::placeholder {
+    color: #5cc6d0;
+    font-weight: 600;
+}
+
+.contact__form__message::placeholder {
+    color: #5cc6d0;
+    font-weight: 600;
+}
+
+.contact__form__button {
+    background-color: #FFF;
+    color: #5cc6d0;
+    font-weight: 600;
+    margin: 5%;
+    width: 50%;
+}

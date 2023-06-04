@@ -1,0 +1,20 @@
+.testimonials {
+    padding: 5%;
+    color: #5cc6d0;
+}
+
+.testimonials__title {
+    font-weight: 800;
+}
+
+.testimonial {
+    padding: 5%;
+    border-radius: 10px;
+    margin: 5% 0;
+    background-color: #5cc6d0;
+    color: #FFF;
+}
+
+.fa-star {
+    color: gold;
+}
