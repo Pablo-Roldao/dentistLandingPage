@@ -36,3 +36,43 @@
     margin: 5%;
     width: 50%;
 }
+
+@media (min-width: 768px) {
+    .contact {
+        padding: 0;
+        color: #5cc6d0;
+        margin-left: 2.5%;
+    }
+    
+    .contact__title {
+        font-size: 3rem;
+        margin-bottom: 2%;
+    }
+    
+    .contact__form {
+        margin-top: 10px;
+        height: 83.5%;
+    }
+    
+    .contact__form__label {
+        font-weight: 600;
+    }
+    
+    .contact__form__input::placeholder {
+        color: #5cc6d0;
+        font-weight: 600;
+    }
+    
+    .contact__form__message::placeholder {
+        color: #5cc6d0;
+        font-weight: 600;
+    }
+    
+    .contact__form__button {
+        background-color: #FFF;
+        color: #5cc6d0;
+        font-weight: 600;
+        margin: 5%;
+        width: 50%;
+    }
+}

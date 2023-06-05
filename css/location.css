@@ -1,0 +1,53 @@
+.location {
+    grid-area: location;
+    padding: 5%;
+    display: grid;
+    background-color: #5CC6D0;
+}
+
+.location * {
+    color: #FFF;
+}
+
+.location__title {
+    font-weight: 800;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .location {
+        background-color: transparent;
+        padding: 0;
+        display: block;
+    }
+
+    .location-area {
+        background-color: #5CC6D0;
+        padding: 5%;
+        border-radius: 10px;
+        margin-right: 2.5%;
+    }
+
+    .location * {
+        color: #5CC6D0;
+    }
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 550px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 550px;
+}
+
+.gmap_iframe {
+    height: 550px !important;
+    border-radius: 10px;
+}

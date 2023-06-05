@@ -25,3 +25,27 @@
 .fa-star {
     color: gold;
 }
+
+@media (min-width: 500px) {
+    .testimonials__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .testimonial {
+        margin: 5% 5%;
+    }
+}
+
+@media (min-width:768px) {
+    .testimonials__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .testimonials__title {
+        font-size: 3rem;
+        margin-bottom: 2%;
+    }
+
+}

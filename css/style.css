@@ -1,0 +1,69 @@
+.contact-location__title {
+    display: none;
+}
+
+.contact-location__subtitle {
+    display: none;
+}
+
+.hr-desktop {
+    display: none;
+}
+
+.hr-mobile {
+    display: block;
+}
+
+@media (min-width: 768px) {
+
+    .contact-location {
+        padding: 2% 5%;
+        display: grid;
+        grid-template-areas: 
+        "title title"
+        "location contact";
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hr-desktop {
+        display: block;
+    }
+
+    .hr-mobile {
+        display: none;
+    }
+
+    .contact-location__title {
+        display: block;
+        grid-area: title;
+        font-size: 3rem;
+        color: #5cc6d0;
+        font-weight: 800;
+        margin-bottom: 3%;
+    }
+
+    .contact-location__subtitle {
+        display: block;
+        text-align: left;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 7%;
+        height: fit-content;
+    }
+
+    .location__title {
+        display: none;
+    }
+
+    .contact__title {
+        display: none;
+    }
+
+    .services-and-hi {
+        display: grid;
+        grid-template-areas: "services health-insurances";
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+}

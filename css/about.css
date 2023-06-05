@@ -10,10 +10,14 @@
     margin: 0;
 }
 
-.about__img {
+.about__img__mobile {
     width: 100%;
     border-radius: 10px;
     margin: 5% 0%;
+}
+
+.about__img__desktop {
+    display: none;
 }
 
 .about__text {
@@ -21,4 +25,45 @@
     margin: 0;
     text-align: justify;
     text-indent: 3ch;
+}
+
+@media (min-width: 768px) {
+
+    .about {
+        padding: 5% 5%;
+        color: #5CC6D0;
+        background-color: #FFF;
+        position: relative;
+    }
+
+    .about__content {
+        display: grid;
+        grid-template-areas:
+            "img"
+            "text";
+        justify-items: center;
+    }
+
+    .about__title {
+        font-size: 3rem;
+        margin-bottom: 3%;
+    }
+
+    .about__img__mobile {
+        display: none;
+    }
+
+    .about__img__desktop {
+        display: block;
+        margin: 0;
+        width: 55%;
+        border-radius: 10px;
+        grid-area: img;
+    }
+
+    .about__text {
+        margin-top: 3%;
+        font-size: 1.5rem;
+        grid-area: text;
+    }
 }

@@ -22,3 +22,23 @@
     padding: 0 5%;
     text-align: end;
 }
+
+@media (min-width: 768px) {
+    .navbar {
+        padding: 0 3%;
+    }
+
+    .navbar-nav {
+        padding: 0;
+        text-align: end;
+    }
+    
+    .navbar-brand img {
+        width: 7vw;
+    }
+    
+    .collapse {
+        display: flex;
+        justify-content: end;
+    }
+}

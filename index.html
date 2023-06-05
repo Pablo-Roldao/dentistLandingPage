@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/testimonials.css">
     <link rel="stylesheet" href="css/health-insurances.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/location.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 
@@ -32,26 +33,29 @@
                 <span class="fa fa-solid fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar-content">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#apresentation">Início</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">Sobre nós</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#testimonials">Avaliações</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#health-insurances">Planos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contato</a>
-                        </li>
-                    </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#apresentation">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#health-insurances">Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Localização</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -59,8 +63,9 @@
     <main>
 
         <section id="apresentation" class="apresentation">
-            <h1 class="apresentation__title">Os melhores serviços odontológicos<br>Você pode confiar.</h1>
-            <img class="apresentation__img" src="img/apresentation-mobile.png" alt="">
+            <h1 class="apresentation__title">Os melhores serviços odontológicos<br>Você encontra aqui.</h1>
+            <img class="apresentation__img__mobile" src="img/apresentation-mobile.png" alt="">
+            <img class="apresentation__img__desktop" src="img/apresentation-desktop.png" alt="">
             <p class="apresentation__text">Se você está procurando por dentistas <strong>confiáveis</strong> em
                 Garanhuns, nós estamos
                 aqui para lhe ajudar. Nós somos conhecidos pelos <strong>melhores, mais acessíveis e indolores</strong>
@@ -70,231 +75,243 @@
 
         <article id="about" class="about">
             <h2 class="about__title">Sobre nós</h2>
-            <img class="about__img" src="img/about-mobile.png" alt="Fotografia dos dentistas">
-            <p class="about__text">Nós somos um time de 5 dentistas certificados e especializados em oferecer os
-                <strong>melhores</strong> tratamentos odontológicos do Agreste Meridional. Com uma grande
-                <strong>experiência de mais de 10 anos</strong>,
-                oferecemos as <strong>melhores soluções com tecnologia e estrutura de excelência</strong>.
-            </p>
-        </article>
-
-        <article id="services" class="services carousel carousel-dark slide">
-            <h2 class="services__title">Serviços</h2>
-
-            <div class="carousel-inner">
-                <div class="service carousel-item active" data-bs-interval="10000">
-                    <img class="service__img" src="./img/services/restauracao-icon.png" alt="Ícone da restauração">
-                    <h3 class="service__title">Restauração</h3>
-                </div>
-                <div class="service carousel-item" data-bs-interval="2000">
-                    <img class="service__img" src="./img/services/implante-icon.png" alt="Ícone de implante">
-                    <h3 class="service__title">Implantes</h3>
-                </div>
-                <div class="service carousel-item" data-bs-interval="2000">
-                    <img class="service__img" src="./img/services/prevencoes-icon.png" alt="Ícone de prenvenção">
-                    <h3 class="service__title">Prevenções</h3>
-                </div>
-                <div class="service carousel-item" data-bs-interval="2000">
-                    <img class="service__img" src="./img/services/clareamento-icon.png" alt="Ícone de clareamento">
-                    <h3 class="service__title">Clareamento</h3>
-                </div>
-                <div class="service carousel-item" data-bs-interval="2000">
-                    <img class="service__img" src="./img/services/reconstrucao-dental-icon.png"
-                        alt="Ícone de reconstrução dental">
-                    <h3 class="service__title">Resconstrução dental</h3>
-                </div>
-                <div class="service carousel-item" data-bs-interval="2000">
-                    <img class="service__img" src="./img/services/raio-x-icon.png" alt="Ícone de raios x">
-                    <h3 class="service__title">Raios X</h3>
-                </div>
-            </div>
-
-
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#services" data-bs-slide="prev">
-                <span class="services-control_prev-icon" aria-hidden="true">
-                    <i class="fa fa-solid fa-chevron-left"></i>
-                </span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#services" data-bs-slide="next">
-                <span class="services-control_next-icon" aria-hidden="true">
-                    <i class="fa fa-solid fa-chevron-right"></i>
-                </span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
-        </article>
-
-        <!-- <article id="services" class="services">
-            <h2 class="services__title">Serviços</h2>
-            <section class="service">
-                <img class="service__img" src="./img/services/restauracao-icon.png" alt="Ícone da restauração">
-                <h3 class="service__title">Restauração</h3>
-            </section>
-            <section class="service">
-                <img class="service__img" src="./img/services/implante-icon.png" alt="Ícone de implante">
-                <h3 class="service__title">Implantes</h3>
-            </section>
-            <section class="service">
-                <img class="service__img" src="./img/services/prevencoes-icon.png" alt="Ícone de prenvenção">
-                <h3 class="service__title">Prevenções</h3>
-            </section>
-            <section class="service">
-                <img class="service__img" src="./img/services/clareamento-icon.png" alt="Ícone de clareamento">
-                <h3 class="service__title">Clareamento</h3>
-            </section>
-            <section class="service">
-                <img class="service__img" src="./img/services/reconstrucao-dental-icon.png"
-                    alt="Ícone de reconstrução dental">
-                <h3 class="service__title">Resconstrução dental</h3>
-            </section>
-            <section class="service">
-                <img class="service__img" src="./img/services/raio-x-icon.png" alt="Ícone de raios x">
-                <h3 class="service__title">Raios X</h3>
-            </section>
-        </article> -->
-
-
-
-        <article id="health-insurances" class="health-insurances carousel carousel-dark slide">
-            <h2 class="health-insurances__title">Planos de saúde aceitos</h2>
-
-            <div class="carousel-inner">
-                <div class="service carousel-item active" data-bs-interval="2000">
-                    <img class="health-insurance__img" src="./img/health-insurances/sulamerica-saude.png"
-                        alt="Logo da SulAmérica Saúde" title="SulAmérica Saúde">
-                </div>
-                <div class="health-insurance carousel-item" data-bs-interval="2000">
-                    <img class="health-insurance__img" src="./img/health-insurances/notredame-intermedica.png"
-                        alt="Logo da NotreDame Intermédica" title="NotreDame Intermédica">
-                </div>
-                <div class="health-insurance carousel-item" data-bs-interval="2000">
-                    <img class="health-insurance__img" src="./img/health-insurances/bradesco-saude.png"
-                        alt="Logo da Bradesco Saúde" title="Bradesco Saúde">
-                </div>
-                <div class="health-insurance carousel-item" data-bs-interval="2000">
-                    <img class="health-insurance__img" src="./img/health-insurances/amil.png" alt="Logo da Amil"
-                        title="Amil">
-                </div>
-                <div class="health-insurance carousel-item" data-bs-interval="2000">
-                    <img class="health-insurance__img" src="./img/health-insurances/unimed.png" alt="Logo da Unimed"
-                        title="Unimed">
-                </div>
-            </div>
-
-
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#health-insurances"
-                data-bs-slide="prev">
-                <span class="health-insurances-control_prev-icon" aria-hidden="true">
-                    <i class="fa fa-solid fa-chevron-left"></i>
-                </span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#health-insurances"
-                data-bs-slide="next">
-                <span class="health-insurances-control_next-icon" aria-hidden="true">
-                    <i class="fa fa-solid fa-chevron-right"></i>
-                </span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
+            <div class="about__content">
+                <img class="about__img__mobile" src="img/about-mobile.png" alt="Fotografia dos dentistas">
+                <img class="about__img__desktop" src="img/about-desktop.png" alt="Fotografia dos dentistas">
+                <p class="about__text">Nós somos um time de 5 dentistas certificados e especializados em oferecer os
+                    <strong>melhores</strong> tratamentos odontológicos do Agreste Meridional. Com uma grande
+                    <strong>experiência de mais de 10 anos</strong>,
+                    oferecemos as <strong>melhores soluções com tecnologia e estrutura de excelência</strong>.
+                </p>
             </div>
         </article>
+
+        <div class="text-center p-3 hr-desktop">
+            <div class="horizontal-row"></div>
+        </div>
+
+        <div class="text-center p-3 hr-mobile">
+            <div class="horizontal-row"></div>
+        </div>
+
+        <div class="services-and-hi">
+            <article id="services" class="services carousel carousel-dark slide">
+                <h2 class="services__title">Serviços</h2>
+
+                <div class="carousel-inner">
+                    <div class="service carousel-item active" data-bs-interval="10000">
+                        <img class="service__img" src="./img/services/restauracao-icon.png" alt="Ícone da restauração">
+                        <h3 class="service__title">Restauração</h3>
+                    </div>
+                    <div class="service carousel-item" data-bs-interval="2000">
+                        <img class="service__img" src="./img/services/implante-icon.png" alt="Ícone de implante">
+                        <h3 class="service__title">Implantes</h3>
+                    </div>
+                    <div class="service carousel-item" data-bs-interval="2000">
+                        <img class="service__img" src="./img/services/prevencoes-icon.png" alt="Ícone de prenvenção">
+                        <h3 class="service__title">Prevenções</h3>
+                    </div>
+                    <div class="service carousel-item" data-bs-interval="2000">
+                        <img class="service__img" src="./img/services/clareamento-icon.png" alt="Ícone de clareamento">
+                        <h3 class="service__title">Clareamento</h3>
+                    </div>
+                    <div class="service carousel-item" data-bs-interval="2000">
+                        <img class="service__img" src="./img/services/reconstrucao-dental-icon.png"
+                            alt="Ícone de reconstrução dental">
+                        <h3 class="service__title">Resconstrução dental</h3>
+                    </div>
+                    <div class="service carousel-item" data-bs-interval="2000">
+                        <img class="service__img" src="./img/services/raio-x-icon.png" alt="Ícone de raios x">
+                        <h3 class="service__title">Raios X</h3>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#services" data-bs-slide="prev">
+                    <span class="services-control_prev-icon" aria-hidden="true">
+                        <i class="fa fa-solid fa-chevron-left"></i>
+                    </span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#services" data-bs-slide="next">
+                    <span class="services-control_next-icon" aria-hidden="true">
+                        <i class="fa fa-solid fa-chevron-right"></i>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </article>
+
+            <div class="text-center p-3 hr-mobile">
+                <div class="horizontal-row"></div>
+            </div>
+
+            <article id="health-insurances" class="health-insurances carousel carousel-dark slide">
+                <h2 class="health-insurances__title">Planos de saúde aceitos</h2>
+
+                <div class="carousel-inner">
+                    <div class="service carousel-item active" data-bs-interval="2000">
+                        <img class="health-insurance__img" src="./img/health-insurances/sulamerica-saude.png"
+                            alt="Logo da SulAmérica Saúde" title="SulAmérica Saúde">
+                    </div>
+                    <div class="health-insurance carousel-item" data-bs-interval="2000">
+                        <img class="health-insurance__img" src="./img/health-insurances/notredame-intermedica.png"
+                            alt="Logo da NotreDame Intermédica" title="NotreDame Intermédica">
+                    </div>
+                    <div class="health-insurance carousel-item" data-bs-interval="2000">
+                        <img class="health-insurance__img" src="./img/health-insurances/bradesco-saude.png"
+                            alt="Logo da Bradesco Saúde" title="Bradesco Saúde">
+                    </div>
+                    <div class="health-insurance carousel-item" data-bs-interval="2000">
+                        <img class="health-insurance__img" src="./img/health-insurances/amil.png" alt="Logo da Amil"
+                            title="Amil">
+                    </div>
+                    <div class="health-insurance carousel-item" data-bs-interval="2000">
+                        <img class="health-insurance__img" src="./img/health-insurances/unimed.png" alt="Logo da Unimed"
+                            title="Unimed">
+                    </div>
+                </div>
+
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#health-insurances"
+                    data-bs-slide="prev">
+                    <span class="health-insurances-control_prev-icon" aria-hidden="true">
+                        <i class="fa fa-solid fa-chevron-left"></i>
+                    </span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#health-insurances"
+                    data-bs-slide="next">
+                    <span class="health-insurances-control_next-icon" aria-hidden="true">
+                        <i class="fa fa-solid fa-chevron-right"></i>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+        </div>
+        </article>
+        </div>
 
         <article id="testimonials" class="testimonials">
-            <h2 class="testimonials__title">O que nossos clientes falam</h2>
-            <section class="testimonial">
-                <h3 class="testimonial__title">Ana Carolina</h3>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <p class="testimonial__text">Atendimento de excelência do início ao fim. Me senti muito bem tratada
-                    enquanto realizava meu tratamento de canal. Nota 10!</p>
-            </section>
-            <section class="testimonial">
-                <h3 class="testimonial__title">Djavan</h3>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <p class="testimonial__text">Fiz um clareamento com a Drª Vanessa. Adorei como fui super bem tratado e
-                    como o tratamento foi indolor</p>
-            </section>
-            <section class="testimonial">
-                <h3 class="testimonial__title">Cássia Eller</h3>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <p class="testimonial__text">Preço muito acessível com um bom tratamento! Estão de parabéns!</p>
-            </section>
-            <section class="testimonial">
-                <h3 class="testimonial__title">Seu Jorge</h3>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <p class="testimonial__text">Levei meu filho para fazer tratamento com o Drº Bruno, gostei muito de como
-                    ele o tratou e o distraiu do tratamento com brincadeiras e conversas. Final um dentista que meu
-                    filho gosta!!!</p>
-            </section>
-            <section class="testimonial">
-                <h3 class="testimonial__title">Lenine</h3>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <p class="testimonial__text">Estrutura muito impressionante e um ótimo atendimento. Recomendo com toda
-                    força!</p>
-            </section>
-            <section class="testimonial">
-                <h3 class="testimonial__title">Jorge Vercillo</h3>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <p class="testimonial__text">Gostei muito dos resultados do meu clareamento. A estrutura, o preço e o
-                    atendimento são impressionantes!</p>
-            </section>
+            <h2 class="testimonials__title">Depoimentos de nossos clientes</h2>
+            <div class="testimonials__content">
+                <section class="testimonial">
+                    <h3 class="testimonial__title">Seu Jorge</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p class="testimonial__text">Levei meu filho para fazer tratamento com o Drº Bruno, gostei muito de
+                        como
+                        ele o tratou e o distraiu do tratamento com brincadeiras e conversas. Finalmente um dentista que
+                        meu
+                        filho gosta!!!</p>
+                </section>
+                <section class="testimonial">
+                    <h3 class="testimonial__title">Ana Carolina</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p class="testimonial__text">Atendimento de excelência do início ao fim. Me senti muito bem acolhida
+                        enquanto realizava meu tratamento de canal. Nota 10!</p>
+                </section>
+                <section class="testimonial">
+                    <h3 class="testimonial__title">Djavan</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p class="testimonial__text">Fiz um clareamento com a Drª Vanessa. Adorei como fui super bem tratado
+                        e
+                        como o tratamento foi indolor</p>
+                </section>
+                <section class="testimonial">
+                    <h3 class="testimonial__title">Jorge Vercillo</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p class="testimonial__text">Gostei muito dos resultados do meu clareamento. A estrutura, o preço e
+                        o
+                        atendimento são deslumbrantes!</p>
+                </section>
+                <section class="testimonial">
+                    <h3 class="testimonial__title">Cássia Eller</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p class="testimonial__text">Preço muito acessível com um bom tratamento! Estão de parabéns!</p>
+                </section>
+
+                <section class="testimonial">
+                    <h3 class="testimonial__title">Lenine</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p class="testimonial__text">Estrutura muito impressionante e um ótimo atendimento. Recomendo com
+                        toda
+                        força!</p>
+                </section>
+            </div>
         </article>
 
-        <article id="contact" class="contact">
-            <h2 class="contact__title">Entre em contato conosco</h2>
-            <form class="contact__form">
-                <label class="contact__form__label form-label" for="first-name">Nome</label>
-                <input class="contact__form__input form-control" type="text" id="first-name"
-                    placeholder="Insira seu nome..." autocomplete="on" required>
+        <div class="contact-location">
+            <h2 class="contact-location__title">Entre em contato conosco</h2>
 
-                <label class="contact__form__label form-label" for="surname">Sobrenome</label>
-                <input class="contact__form__input form-control" type="text" id="surname"
-                    placeholder="Insira seu sobrenome..." autocomplete="on" required>
+            <article id="contact" class="contact">
+                <h2 class="contact__title">Entre em contato conosco</h2>
+                <h3 class="contact-location__subtitle">Mande-nos uma mensagem</h3>
+                <form class="contact__form">
+                    <label class="contact__form__label form-label" for="first-name">Nome</label>
+                    <input class="contact__form__input form-control" type="text" id="first-name"
+                        placeholder="Insira seu nome..." autocomplete="on" required>
 
-                <label class="contact__form__label form-label" for="phone">Celular</label>
-                <input class="contact__form__input form-control" type="tel" name="phone" id="phone"
-                    placeholder="Insira seu número de celular..." required>
+                    <label class="contact__form__label form-label" for="surname">Sobrenome</label>
+                    <input class="contact__form__input form-control" type="text" id="surname"
+                        placeholder="Insira seu sobrenome..." autocomplete="on" required>
 
-                <label class="contact__form__label form-label" for="message">Sua mensagem</label>
-                <textarea class="contact__form__message form-control" name="message" id="message" rows="10"
-                    placeholder="Insira sua mensagem aqui..."></textarea>
+                    <label class="contact__form__label form-label" for="phone">Celular</label>
+                    <input class="contact__form__input form-control" type="tel" name="phone" id="phone"
+                        placeholder="Insira seu número de celular..." required>
 
-                <div class="text-center">
-                    <button type="submit" class="contact__form__button btn">Enviar</button>
+                    <label class="contact__form__label form-label" for="message">Sua mensagem</label>
+                    <textarea class="contact__form__message form-control" name="message" id="message" rows="10"
+                        placeholder="Insira sua mensagem aqui..."></textarea>
+
+                    <div class="text-center">
+                        <button type="submit" class="contact__form__button btn">Enviar</button>
+                    </div>
+                </form>
+            </article>
+
+            <article id="location" class="location text-center">
+                <h2 class="location__title">Onde estamos localizados</h2>
+                <h3 class="contact-location__subtitle">Vá ao nosso consultório</h3>
+                <div class="location-area">
+                    <div class="mapouter">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0"
+                                    scrolling="no" marginheight="0" marginwidth="0"
+                                    src="https://maps.google.com/maps?width=600&amp;height=550&amp;hl=en&amp;q=Connecta Tecnologia, Garanhuns&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </form>
-        </article>
+            </article>
+        </div>
 
     </main>
 
-    <div class="text-center p-3">
+    <div class="text-center p-3 hr-desktop">
         <div class="horizontal-row"></div>
     </div>
 
@@ -303,7 +320,7 @@
             title="Vanessa Lima Odontologia">
 
         <section class="footer__contact">
-            <h2 class="footer__contact__title">Entre em contato conosco</h2>
+            <h2 class="footer__contact__title">Contato</h2>
             <p class="footer__contact__content">
                 <a href="tel:+5587981000000">+55 (87) 98100-0000</a>
                 <a href="tel:+5587981222222">+55 (87) 98122-2222</a>
@@ -312,7 +329,7 @@
         </section>
 
         <section class="footer__reach-us">
-            <h2 class="footer__reach-us__title">Chegue até nós</h2>
+            <h2 class="footer__reach-us__title">Endereço</h2>
             <address class="footer__reach-us__content">
                 965 Rua das Flores,
                 Garanhuns, Pernambuco, Brasil
@@ -351,8 +368,8 @@
         </section>
 
         <section class="footer__copyright">
-            <p>&copy; 2023 Vanessa Lima Odontologia</p>
-            <p>Desenvolvido por Pablo Roldão</p>
+            <p class="copyright">&copy; 2023 Vanessa Lima Odontologia</p>
+            <p class="author">Desenvolvido por Pablo Roldão</p>
         </section>
 
     </footer>
