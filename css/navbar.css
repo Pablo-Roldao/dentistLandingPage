@@ -3,6 +3,10 @@
     color: #4096C6;
 }
 
+.navbar {
+    padding: 0;
+}
+
 .navbar-brand img {
     width: 20vw;
 }
@@ -14,8 +18,7 @@
     box-shadow: none;
 }
 
-.collapse-area {
-    display: flex;
-    justify-content: end;
-    padding-right: 5%;
+.navbar-nav {
+    padding: 0 5%;
+    text-align: end;
 }

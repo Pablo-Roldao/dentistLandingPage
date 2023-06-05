@@ -1,6 +1,8 @@
 .about {
     padding: 5%;
-    color: #4096c6;
+    color: #5CC6D0;
+    background-color: #FFF;
+    position: relative;
 }
 
 .about__title {
@@ -8,7 +10,15 @@
     margin: 0;
 }
 
+.about__img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 5% 0%;
+}
+
 .about__text {
     font-weight: 600;
     margin: 0;
+    text-align: justify;
+    text-indent: 3ch;
 }

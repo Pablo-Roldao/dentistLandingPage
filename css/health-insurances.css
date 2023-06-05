@@ -1,27 +1,38 @@
 .health-insurances {
     padding: 5%;
-    background-color: #4096c6;
-    color: #FFF;
+    background-color: #FFF;
+    color: #5CC6D0;
 }
 
 .health-insurances__title {
     font-weight: 800;
+    margin-bottom: 10%;
 }
 
 .health-insurance {
-    background-color: #FFF;
-    color: #4096c6;
-    border-radius: 10px;
-    margin: 5% 0;
-    padding: 5%;
+    text-align: center;
 }
 
 .health-insurance__img {
-    width: 100%;
+    width: 70%;
 }
 
 .health-insurance__title {
     text-align: center;
     font-weight: 600;
     margin-top: 5%;
+}
+
+.health-insurances-control_prev-icon {
+    color: #5CC6D0;
+    font-size: 2rem;
+    font-weight: 800;
+    text-shadow: 0px 0px 30px #3B8E96;
+}
+
+.health-insurances-control_next-icon {
+    color: #5CC6D0;
+    font-size: 2rem;
+    font-weight: 800;
+    text-shadow: 0px 0px 30px #3B8E96;
 }

@@ -2,14 +2,29 @@
     padding: 5%;
     background-color: #5CC6D0;
     color: #FFF;
+    position: relative;
 }
 
 .apresentation__title {
     font-size: 2rem;
     margin: 0;
     font-weight: 800;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.apresentation__img {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.10;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .apresentation__text {
     font-weight: 600;
+    position: relative;
+    text-align: justify;
+    text-indent: 3ch;
 }

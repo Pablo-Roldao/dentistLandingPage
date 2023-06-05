@@ -6,11 +6,22 @@
 
 .footer {
     padding: 5%;
-    color: #4096c6;
+    color: #5cc6d0;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.footer h2 {
+    font-size: 1.2rem;
 }
 
 .footer__img {
-    width: 100%;
+    width: 50%;
+    margin: 0;
+}
+
+.footer__contact {
+    text-align: left;
 }
 
 .footer__contact__title {
@@ -19,9 +30,13 @@
 
 .footer__contact a {
     display: block;
-    color: #4096c6;
+    color: #5cc6d0;
     text-decoration: none;
     font-weight: 600;
+}
+
+.footer__reach-us {
+    text-align: left;
 }
 
 .footer__reach-us__title {
@@ -30,6 +45,11 @@
 
 .footer__reach-us__content {
     font-weight: 600;
+}
+
+
+.footer__open-hours {
+    text-align: left;
 }
 
 .footer__open-hours__title {
@@ -41,17 +61,22 @@
     margin-bottom: 5%;
 }
 
+.footer__social-medias {
+    text-align: left;
+}
+
 .footer__social-medias__area {
     display: flex;
-    justify-content: space-between;
 }
 
 .footer__social-medias__icon {
-    width: 40%;
+    font-size: 1.5rem;
+    margin-right: 2rem;
     color: #5cc6d0;
 }
 
 .footer__copyright {
     margin-top: 5%;
     display: flex;
+    justify-content: space-between;
 }
